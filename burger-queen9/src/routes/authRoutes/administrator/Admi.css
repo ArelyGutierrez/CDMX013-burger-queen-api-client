@@ -1,0 +1,85 @@
+
+.nav{
+    background-color: #334249;
+    width: 1440px;
+    height: 160px;
+    color:#BCB7BD;
+}
+.ref{
+    outline: none;
+    text-decoration: none;
+    color: #BCB7BD;  
+    font-size: larger;
+}
+.lis{
+    margin-inline: 10%;
+    list-style-type: none;
+    display: flex;
+    margin-inline: 3%;
+    ;
+}
+.lis:hover{
+    font-weight: bold;
+}
+.time{
+    color: #BCB7BD;  
+
+}
+.elementList{
+    list-style-type: none; 
+    outline: none;
+}
+.new{
+    background: #334249;
+    /*opacity: 0.75;*/
+   display: flex;
+   justify-content: center;
+
+}
+#container{
+    width: 80vh;
+    height: 25vh;
+    font-size: small;
+    background-color: white;
+}
+.inputsize{
+    width: 35vh;
+    background-color: #D9D9D9;
+    border: transparent;
+}
+.containerbuttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: medium;
+    margin: 1vh;
+}
+#cancel{
+background-color:  #334249;
+color: white;
+}
+#acept{
+background-color: #7F9B72;
+color: white;
+}
+.buttonGreen{
+    background-color: #7F9B72;
+    color: white;
+    margin-top: 3vh;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 2vh;
+    width: 30vh;
+    height: 6vh;
+    font-size: large;
+
+}
+.ulmenu{
+    background-color: #BCB7BD;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}

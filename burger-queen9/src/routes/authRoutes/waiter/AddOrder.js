@@ -39,7 +39,7 @@ export const WaiterNewOrderView = () => {
             <section className="orderitems">
                 <div className="headerOrder"><h4>Orden:</h4><p>Hora de orden:</p></div>
                 <div className="description"><img src="./images/iconDelete.png" alt="delete"></img><p>cantidad</p><p>description</p><p>total</p></div>
-                <div className="totalOrder"><h4>TOTAL:</h4><h4>--> $500</h4></div>
+                <div className="totalOrder"><h4>TOTAL:</h4><h4> $500</h4></div>
             </section>
 
 </main>
