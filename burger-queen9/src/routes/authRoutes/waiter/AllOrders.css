@@ -1,0 +1,93 @@
+.headerWaiter {
+    background-color: #334249;
+    /* height: 13vh; */
+    padding-top: 3vh;
+    color: #BCB7BD;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bqwaiter {
+    font-weight: bold;
+}
+
+.addOrder {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    color: #FFFFFF;
+    font-weight: bolder;
+    background: #7F9B72;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    text-decoration: none;
+    /* justify-content: center; */
+}
+
+.logoutWaiter {
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    background: #9E6C58;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    /* width: 157px;*/
+    /* height: 40px;  */
+}
+.mainWaiter{
+    display: flex;
+}
+a, button{
+    color:white;  
+    font-size: 3vh;
+    text-decoration: none;
+}
+
+.orderisReady{
+    width: 50vw;
+    height: 70vh;
+    background-color: aquamarine;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    /* flex-wrap: wrap;  */
+    overflow: scroll;
+}
+.orderInProcess{
+    margin-right: 5vw;
+    width: 40vw;
+    height: 70vh;
+    background-color: aquamarine;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    overflow: scroll; 
+}
+
+.card{
+    margin: 2vh 2vw;
+    width: 20vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;  
+    background-color: pink;
+}
+
+.finishedOrder{ /*button*/
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    background: #7F9B72;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+h4{
+    margin-left: 1vw;
+}
+
+.cardOrderInProcess{
+    margin: 2vh 2vw;
+    width: 20vw;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;  
+    background-color: pink; 
+}
+
+

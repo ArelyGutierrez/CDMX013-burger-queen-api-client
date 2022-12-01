@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 export const LoginUser = ()=>{
  return(
    <>
-   <header><nav><h1 class="bq">Burguer Queen</h1></nav></header>
-   <main>
+   <header class="headerLogin"><nav><h1 class="bq">Burguer Queen</h1></nav></header>
+   <main class="mainLogin">
   
    <div class="container-lg">
    <h1 class="login">Iniciar sesión </h1>
