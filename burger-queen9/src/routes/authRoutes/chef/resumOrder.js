@@ -9,7 +9,7 @@ export const ResumOrdns = () => {
                                 <p className="card-text">Hora de entrada: 00:00 hrs.</p>
                                 <span>Timer: 00:00 hrs </span>
                                 <div className='text-end'>
-                                    <a href="#" className="btn btn-primary">Preparar</a>
+                                    <a href="#" className="btn" id="finishedOrder">Preparar</a>
                                 </div>
                             </div>
                         </div>
