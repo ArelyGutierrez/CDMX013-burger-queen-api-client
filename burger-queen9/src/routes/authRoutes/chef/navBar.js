@@ -1,6 +1,7 @@
 import { Time } from "../Time";
 
 export const Navbar = () => {
+    
     return (
         <>
             <header class="headerWaiter"><h1 class="bqwaiter">Burguer Queen</h1>
