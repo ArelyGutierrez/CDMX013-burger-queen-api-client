@@ -7,8 +7,9 @@
     height: 70vh;
     margin-top: 5vh;
     margin-left: 5vw;
-    /* flex-wrap: wrap;  */
-    overflow: scroll;
+    flex-wrap: wrap; 
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
     border-color: blueviolet;
 }
 
