@@ -15,8 +15,8 @@ export const NewOrder = () => {
                 <button type="button" class="logoutWaiter"><Link to="/">Cerrar Sesión</Link></button>
             </header>
 
-            <button type="button" class="addOrder"><Link to="/waiter/neworder">Desayuno</Link></button>
-            <button type="button" class="addOrder"><Link to="/waiter/neworder/dinner">Comida </Link></button>
+            <button type="button" class="addOrder" value="desayuno"><Link to="/waiter/neworder">Desayuno</Link></button>
+            <button type="button" class="addOrder" value="comida"><Link to="/waiter/neworder/dinner">Comida </Link></button>
             <Outlet />
 
 <main className="mainOrderWaiter">
