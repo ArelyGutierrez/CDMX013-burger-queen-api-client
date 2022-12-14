@@ -19,6 +19,15 @@ export const APIwaiter=()=>{
     },[])
     return(
         <ItemFilter products={items}/>
+    ) 
+}
+
+export const TypeFilter = () =>{
+    return(
+        <>
+        {APIwaiter.filter((item)=>
+        item.type==='comida'
+        )}
+        </>
     )
-    
 }

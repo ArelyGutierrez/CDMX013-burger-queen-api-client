@@ -60,13 +60,12 @@ a, button{
     overflow: scroll; 
 }
 
-.card{
+#card{
     margin: 2vh 2vw;
     width: 20vw;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;  
-    background-color: pink;
 }
 
 .finishedOrder{ /*button*/
@@ -87,7 +86,7 @@ h4{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;  
-    background-color: pink; 
+    
 }
 
 .btn{
