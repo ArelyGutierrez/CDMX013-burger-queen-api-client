@@ -1,6 +1,3 @@
-import './NewOrder.css';
-import './CardItemsB.css'
-
 export const Dinner =()=>{
     return (
         <>

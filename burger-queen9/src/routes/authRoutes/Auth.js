@@ -7,15 +7,10 @@ import { ChefMainView } from './chef/Orders';
 import { AdminUsersView } from './administrator/AdmiUsers/User';
 // import { WaiterNewOrderView } from './waiter/AddOrder';
 
-export const RouteAuth =(user)=>{
-// Que incluye account
-// validar en account incluye mesero , consiero, chef, admin procesa la info
-// quer rutas retorno // si chef is true entonces mandar a la siguiente ruta.
-   return createBrowserRouter([ // transformar a funcion
+export const RouteAuth = createBrowserRouter([
     {
-        path: '/',
-        element: < Waiter user={user}
-        name={user.name} />,
+        path: '/waiter',
+        element: < Waiter />,
     },
     {
         path: '/waiter/neworder',
@@ -38,4 +33,3 @@ export const RouteAuth =(user)=>{
         element: < ChefMainView />,
     }
 ])
-} 
