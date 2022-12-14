@@ -1,19 +1,27 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { WaiterMainView } from './waiter/AllOrders';
-import { AdminMainView } from './administrator/Menu';
+import { Waiter } from './waiter/Waiter'
+import { NewOrder } from './waiter/NewOrder';
+import { Dinner } from './waiter/Dinner';
+import { AdminMainView } from './administrator/AdmiMenu/Menu'
 import { ChefMainView } from './chef/Orders';
-import { AdminUsersView } from './administrator/User';
-import { WaiterNewOrderView } from './waiter/AddOrder';
+import { AdminUsersView } from './administrator/AdmiUsers/User';
+// import { WaiterNewOrderView } from './waiter/AddOrder';
 
 export const RouteAuth = createBrowserRouter([
     {
         path: '/waiter',
-        element: < WaiterMainView />,
+        element: < Waiter />,
     },
     {
-        path: '/neworder',
-        element: < WaiterNewOrderView />,
-    }, {
+        path: '/waiter/neworder',
+        element: < NewOrder />,
+        children: [
+            {
+                path: '/waiter/neworder/dinner',
+                element: < Dinner />,
+            }]
+    }
+    , {
         path: '/administrator',
         element: < AdminMainView />,
     }, {
