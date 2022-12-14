@@ -17,16 +17,16 @@ export const Waiter = () => {
        Agregar Orden
       </button>
       {/* <ModalOrder/> */}
-      {/* <button type="button" class="addOrder"><Link to="/neworder">Agregar orden</Link></button> */}
+       <button type="button" class="addOrder"><Link to="/neworder">Agregar orden</Link></button>
 
       <main class="mainWaiter">
 
         <section class="orderisReady">
           <p class="oneOrder">Orden lista:</p>
-          <article class="card"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
+          <article id='card' class="card"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
             <h4 className="leftItem">1###</h4><h4>####</h4>
             <h4 className="leftItem">➕</h4><button type="button" class="finishedOrder">Finalizar</button></article>
-          <article class="card"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
+          <article id='card' class="card"><h4 className="leftItem">No. Orden: </h4><h4 id="tableNumber">No. Mesa: </h4>
             <h4 className="leftItem">2###</h4><h4>####</h4>
             <h4 className="leftItem">➕</h4><button type="button" class="finishedOrder">Finalizar</button></article>
 

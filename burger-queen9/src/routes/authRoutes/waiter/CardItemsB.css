@@ -1,17 +1,24 @@
-img{
+#menuImage{
     height: 10vh;
     width:  10vw;   
+}
+.dinnerdinner {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product {
     /* opacity: 0.85; */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    color:black;
     border-radius: 8px;
-    /* width: fit-content; */
     width: 40%;
     padding: 1vh 1vw;
-    align-content: center;
+    text-align: justify-all;
     margin: 1vh 1vw;
-    align-items:center;
-    /* flex-direction: row; */
+    text-align:center;
+
+    
+    
 }
