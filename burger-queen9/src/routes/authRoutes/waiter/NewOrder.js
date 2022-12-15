@@ -20,27 +20,12 @@ export const NewOrder = () => {
             <Outlet />
 
 <main className="mainOrderWaiter">
-            <section className="menuSection">
-                
-                <section class="dinnerdinner">
+                            
                 <APIwaiter/>  
-
-                </section>
- 
-            </section>
-
-            <section className="orderitems">
-                <div className="headerOrder"><h4>Orden:</h4><p>Hora de orden:</p></div>
-                <div className="description"><p>❌📝</p><p>cantidad</p><p>description</p><p>total</p></div>
-               
-                <div className="totalOrder"><h4>TOTAL:</h4><h4>➡$500</h4></div>
-            </section>
 
 </main>
 
-            <div className="confirmOrden">
-                <button className="confirmOrdenButton"><Link to="/waiter">Agregar orden</Link></button>
-            </div>
+ 
 
 
             

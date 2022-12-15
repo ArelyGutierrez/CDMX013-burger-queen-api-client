@@ -22,12 +22,13 @@ export const APIwaiter=()=>{
     ) 
 }
 
-export const TypeFilter = () =>{
-    return(
-        <>
-        {APIwaiter.filter((item)=>
-        item.type==='comida'
-        )}
-        </>
-    )
-}
+// export const TypeFilter = () =>{
+//     return(
+//         <>
+//         {APIwaiter.filter((item)=>
+//         item.type==='comida'
+//         )}
+//         </>
+//     )
+// }
+

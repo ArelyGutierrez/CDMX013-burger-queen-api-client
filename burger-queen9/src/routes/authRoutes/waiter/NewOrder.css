@@ -54,11 +54,18 @@
     background-color: #334249;
     font-size: x-large;
     color:#fff;
+    
 }
 .description{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     background-color: #BCB7BD;
+    align-items: flex-end;
+    text-align: justify-all;
+    font-size: x-large;
+    border-color: black;
+    padding:  .5vh 1vw;
+    /* text-align:center;  */
 }
 
 .totalOrder{
@@ -85,8 +92,3 @@
     border-radius: 5px; 
 }
 
-#menuIconDelete, #menuIconEdit{
-    height: 3vh;
-    width:  3vw;
-
-}
