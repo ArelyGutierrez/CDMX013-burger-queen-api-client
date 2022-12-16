@@ -6,9 +6,10 @@ export const ChefMainView = ()=>{
     return (
         <>
         <Navbar/>
-        
-                       <ConsumirApi/>
-
+        <p/>
+            <div className="container-fluid">
+                       <ConsumirApi/> 
+            </div>
         </>
     )
 }
