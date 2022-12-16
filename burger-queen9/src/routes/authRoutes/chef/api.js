@@ -1,6 +1,8 @@
 import Axios from 'axios'
 import { useState, useEffect } from 'react'
-import { TarjetaProductos } from './ContainerProduct'
+import { ResumOrdns } from './ResumOrdns'
+
+
 export const ConsumirApi = () => {
     const [productos, setProductos] = useState([])
         useEffect(() => {
@@ -10,6 +12,6 @@ export const ConsumirApi = () => {
             })
         })
         return (
-            <TarjetaProductos productos={productos}/>
+            <ResumOrdns productos={productos} key={productos.id}/>
         )
 }
