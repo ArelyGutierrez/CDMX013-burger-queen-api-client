@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 // import { useEffect } from "react";
 import './NewOrder.css';
 import { APIwaiter } from "./APIwaiter";
+import { Time } from "../Time";
 
 
 export const NewOrder = () => {
@@ -10,7 +11,7 @@ export const NewOrder = () => {
     return (
         <>
             <header class="headerWaiter"><h1 class="bqwaiter">Burguer Queen</h1>
-                <div><p>Fecha|hora</p></div>
+                <div><p><Time className='time' /></p></div>
                 <p>Nombre del mesero</p>
                 <button type="button" class="logoutWaiter"><Link to="/">Cerrar Sesión</Link></button>
             </header>

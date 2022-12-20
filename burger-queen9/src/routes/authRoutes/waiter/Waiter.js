@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import './Waiter.css';
+import { Time } from "../Time";
 // import { ModalOrder } from "./OrderNumber";
 
 
@@ -8,7 +9,7 @@ export const Waiter = () => {
   return (
     <>
       <header class="headerWaiter"><h1 class="bqwaiter">Burguer Queen</h1>
-        <div><p>Fecha|hora</p></div>
+        <div><p><Time className='time' /></p></div>
         <p>Nombre del mesero</p>
         <button type="button" class="logoutWaiter"><Link to="">Cerrar Sesión</Link></button>
       </header>

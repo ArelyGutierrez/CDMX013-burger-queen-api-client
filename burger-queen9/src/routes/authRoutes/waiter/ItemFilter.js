@@ -15,7 +15,7 @@ export const ItemFilter = ({ products }) => {
             <section className="menuSection">        
             {products.map(product => (
                
-                <button onClick={() => { handleAddItem(product) }} className="product">
+                <button key={product.id} onClick={() => { handleAddItem(product) }} className="product">
                     <CardItemsB
                         type={product.type}
                         image={product.image}

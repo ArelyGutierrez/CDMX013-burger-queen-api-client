@@ -5,7 +5,7 @@ import { RouteAuth } from './routes/authRoutes/Auth';
 import { NoAuthR } from './routes/noAuthRoutes/noAuth';
 
 function App() {
-  const [user] = useState({
+  const [user] = useState(!{
     user: 'prueba@prueba.com'
   })
 

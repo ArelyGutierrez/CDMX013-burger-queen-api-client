@@ -5,6 +5,7 @@
 .dinnerdinner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product {
