@@ -9,7 +9,7 @@ import { AdminUsersView } from './administrator/AdmiUsers/User';
 
 export const RouteAuth = createBrowserRouter([
     {
-        path: '/waiter',
+        path: '/',
         element: < Waiter />,
     },
     {
