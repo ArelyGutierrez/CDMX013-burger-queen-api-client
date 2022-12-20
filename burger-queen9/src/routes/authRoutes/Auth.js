@@ -7,29 +7,32 @@ import { ChefMainView } from './chef/Orders';
 import { AdminUsersView } from './administrator/AdmiUsers/User';
 // import { WaiterNewOrderView } from './waiter/AddOrder';
 
-export const RouteAuth = createBrowserRouter([
-    {
-        path: '/',
-        element: < Waiter />,
-    },
-    {
-        path: '/waiter/neworder',
-        element: < NewOrder />,
-        children: [
-            {
-                path: '/waiter/neworder/dinner',
-                element: < Dinner />,
-            }]
-    }
-    , {
-        path: '/administrator',
-        element: < AdminMainView />,
-    }, {
-        path: '/users',
-        element: <AdminUsersView />
-    }
-    , {
-        path: '/chef',
-        element: < ChefMainView />,
-    }
-])
+export const RouteAuth = (user) => {
+    return createBrowserRouter([
+        {
+            path: '/',
+            element: < Waiter user={user}
+            name={user.email}  />,
+        },
+        {
+            path: '/waiter/neworder',
+            element: < NewOrder />,
+            children: [
+                {
+                    path: '/waiter/neworder/dinner',
+                    element: < Dinner />,
+                }]
+        }
+        , {
+            path: '/administrator',
+            element: < AdminMainView />,
+        }, {
+            path: '/users',
+            element: <AdminUsersView />
+        }
+        , {
+            path: '/chef',
+            element: < ChefMainView />,
+        }
+    ])
+}

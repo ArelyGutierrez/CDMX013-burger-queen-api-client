@@ -3,21 +3,21 @@ import './Waiter.css';
 // import { ModalOrder } from "./OrderNumber";
 
 
-export const Waiter = () => {
+export const Waiter = ({name}) => {
  
   return (
     <>
       <header class="headerWaiter"><h1 class="bqwaiter">Burguer Queen</h1>
         <div><p>Fecha|hora</p></div>
-        <p>Nombre del mesero</p>
+        <p>{name}</p>
         <button type="button" class="logoutWaiter"><Link to="">Cerrar Sesión</Link></button>
       </header>
 
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      {/* <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
        Agregar Orden
-      </button>
+      </button> */}
       {/* <ModalOrder/> */}
-       <button type="button" class="addOrder"><Link to="/neworder">Agregar orden</Link></button>
+       <button type="button" class="addOrder"><Link to="/waiter/neworder">Agregar orden</Link></button>
 
       <main class="mainWaiter">
 
