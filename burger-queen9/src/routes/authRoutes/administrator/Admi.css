@@ -1,0 +1,95 @@
+#nav{
+    background-color: hsl(199, 18%, 24%);
+    /* width: 1440px;*/
+    height: 160px; 
+    color:#BCB7BD;
+}
+.ref{
+    outline: none;
+    text-decoration: none;
+    color: #BCB7BD;
+    font-size: larger;
+}
+.lis{
+    margin-inline: 10%;
+    list-style-type: none;
+    display: flex;
+    margin-inline: 3%;
+}
+.lis:hover{
+    font-weight: bold;
+}
+.time{
+    color: #BCB7BD;
+}
+#buttonGreen{
+    background-color: #7F9B72;
+    color: white;
+    margin-top: 3vh;
+    border-radius: 5px;
+    border: transparent;
+    margin-left: 2vh;
+    width: 30vh;
+    height: 6vh;
+    font-size:x-large;
+}
+#menu{
+    background-color: #D3CFD3;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    width: 170vh;
+    height:98vh;
+    padding: 1vh;
+    font-size: large;
+}
+#elementList{
+    list-style-type: none;
+    outline: none;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+#delete{
+    height: 2vh;
+}
+#view{
+    height: 2vh;
+}
+#new{
+    background: #334249;
+    /*opacity: 0.75;*/
+   display: flex;
+   justify-content: center;
+}
+#container{
+    width: 80vh;
+    height: 25vh;
+    font-size: medium;
+    background-color: white;
+    justify-content: space-around;
+    padding-inline: 1vh;
+}
+.inputsize{
+    width: 25vh;
+    background-color: #D9D9D9;
+    border: transparent;
+}
+.containerbuttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: medium;
+    margin: 1vh;
+}
+#cancel{
+background-color:  #334249;
+color: white;
+margin-right: 1vh;
+}
+#acept{
+background-color: #7F9B72;
+color: white;
+}

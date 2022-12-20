@@ -5,14 +5,18 @@ import { RouteAuth } from './routes/authRoutes/Auth';
 import { NoAuthR } from './routes/noAuthRoutes/noAuth';
 
 function App() {
-  const [user] = useState({
-    user: 'prueba@prueba.com'
-  })
+  // const [user] = useState(!{
+  //   user: 'prueba@prueba.com'
+  // })
+  const [account, setAccount]=useState(null)
+  const handleAddAccount=(session)=>{
+    setAccount(session)
+  }
 
   return (
     <>
-      {user ?
-        <RouterProvider router={RouteAuth} />:<RouterProvider router={NoAuthR} />}
+      {account ?
+        <RouterProvider router={RouteAuth(account)} />:<RouterProvider router={NoAuthR(handleAddAccount)} />}
     </>
   );
 }
